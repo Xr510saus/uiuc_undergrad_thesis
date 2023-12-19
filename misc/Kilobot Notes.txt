@@ -1,0 +1,19 @@
+Purpose of swarm robotics:
+* Validate collective control algorithms irl, not just through simulation
+
+What other groups have done:
+* Tested out on 10s, 100s of robots
+* Limited by robot cost and operational complexity
+	* Turning robots on/off, charging, controlling, and programming
+
+Main point:
+* All operations of the robot must work on the collective as a whole and be scalable
+
+Kilobot:
+* $14 worth of parts
+* 5 min assembly
+* Features
+	* Differential drive locomotion
+	* On-board computation power
+	* Neighbor-to-neighbor communication
+	* Neighbor-to-neighbor distance sensing

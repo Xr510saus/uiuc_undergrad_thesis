@@ -1,0 +1,43 @@
+TODO:
+* Design layout for soft body
+	* Required components:
+		* Two flippers (maybe 3)
+		* Two servos (maybe 3)
+		* 1 Buck booster
+		* 1 dev board
+		* 1 battery
+		* Wires (negligible)
+	* Considerations:
+		* IMPORTANT: how to constrain flippers on the soft body?
+		* Waterproof? If so, how to design a sealed area for the electronics
+			* Would be able to do this ideally, so that the environment is flexible and opens up more potential applications
+		* If improving edges does not work, third servo and flipper to push up the body and reduce friction in one direction? Or actuating mass to change friction\
+		* Potentially easy way to remove/charge battery
+		* The use of a printed board
+			* Keeps components in place, can put circles and use "pegs" on the soft body to constrain the electronics
+
+* Add another signal to control the second servo independently
+* Print another cap and fix onto the servos
+
+
+
+Notes:
+* Each mold roughly 30 g for Dragon Skin 30
+
+BUY LIST:
+* Servo - https://www.digikey.com/en/products/detail/adafruit-industries-llc/169/5154651
+* Boost 3-5V - https://www.digikey.com/en/products/detail/adafruit-industries-llc/4654/12697636
+* Resistor kit ?
+* New type of cable
+	* piano wire other other metal wire
+* IR stuff (LEDs, Remote) https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TSOP38238/1681362
+* Different types of silicone rubbers
+* 90 degree 2pin jst connectors https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S-LF-SN/926626
+* itsybitsy 3V https://www.digikey.com/en/products/detail/adafruit-industries-llc/3675/8031669
+* metro mini 5V https://www.digikey.com/en/products/detail/adafruit-industries-llc/2590/5629422
+
+
+NOTES FOR THESIS:
+* hysteresis-based control (non-linear control)
+* wanted to create untethered testbed for said control type
+* inspiration from turtle, which can use its flippers to move on land, reset, and repeat
